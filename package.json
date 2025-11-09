@@ -1,0 +1,23 @@
+{
+  "name": "massage-montelimar",
+  "version": "1.0.0",
+  "description": "Site web pour Massage Bien-être et Head Spa à Montélimar",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080",
+    "serve": "python3 -m http.server 8080"
+  },
+  "keywords": [
+    "massage",
+    "montelimar",
+    "head spa",
+    "bien-être",
+    "relaxation"
+  ],
+  "author": "Massage Montélimar",
+  "license": "Proprietary",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

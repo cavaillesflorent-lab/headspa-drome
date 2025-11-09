@@ -1,0 +1,31 @@
+# robots.txt pour headspa-drome.fr
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://headspa-drome.fr/sitemap.xml
+
+# Crawl-delay (délai entre deux requêtes du bot)
+Crawl-delay: 1
+
+# Autoriser l'accès aux ressources
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Pages principales
+Allow: /index.html
+
+# Pages légales (autorisées mais avec noindex dans les meta)
+Allow: /mentions-legales.html
+Allow: /politique-confidentialite.html
+
+# Bloquer les fichiers de développement
+Disallow: /.git
+Disallow: /README.md
+Disallow: /.gitignore
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /_redirects
+Disallow: /render.yaml
